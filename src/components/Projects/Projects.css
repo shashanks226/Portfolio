@@ -1,0 +1,93 @@
+.projects {
+  background-color: black;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: var(--primary);
+}
+
+/* GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.project-card {
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.project-card:hover {
+  box-shadow: var(--glow);
+}
+
+/* IMAGE */
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.card-content {
+  padding: 15px;
+  text-align: left;
+  color: black;
+}
+
+.card-content h3 {
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* TECH TAGS */
+.tech span {
+  display: inline-block;
+  margin: 3px;
+  padding: 4px 8px;
+  font-size: 12px;
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons a {
+  margin-right: 10px;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background: var(--secondary);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}

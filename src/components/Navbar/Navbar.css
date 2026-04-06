@@ -1,0 +1,76 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 1000;
+
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  background: transparent; /* inside card */
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Menu */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* underline animation */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #a855f7;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Button */
+.hire-btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(45deg, #6c63ff, #a855f7);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hire-btn:hover {
+  opacity: 0.8;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}

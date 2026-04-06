@@ -1,0 +1,16 @@
+:root {
+  /* 💜 Primary Colors */
+  --primary: #6c63ff;
+  --secondary: #a855f7;
+
+  /* 🌌 Background */
+  --bg-dark: #b80bf2;
+  --bg-light: #6c63ff;
+
+  /* 📝 Text */
+  --text-main: #ffffff;
+  --text-muted: #cbd5f5;
+
+  /* ✨ Effects */
+  --glow: 0 0 20px rgba(133, 37, 223, 0.6);
+}

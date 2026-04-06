@@ -1,0 +1,52 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6c63ff, #a855f7);
+  color: var(--text-main);
+}
+
+/* Section spacing */
+section {
+  padding: 30px 0;
+}
+
+/* Buttons (global style) */
+button {
+  font-family: inherit;
+}
+
+/* Scrollbar (optional) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.app-container {
+  width: 90%;
+  max-width: 1800px;
+  margin: 30px auto;
+
+  background: linear-gradient(135deg, #71a2a3, #b47d4d, #bd6060);
+  border-radius: 25px;
+
+  padding: 20px 0;
+
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+}
