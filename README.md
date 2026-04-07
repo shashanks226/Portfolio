@@ -39,7 +39,7 @@ A real-time audio visualization web application that converts sound into dynamic
 
 Installation and Setup
 # Clone the repository
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/shashanks226/Portfolio.git
 
 # Navigate into the project directory
 cd portfolio
