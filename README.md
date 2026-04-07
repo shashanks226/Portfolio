@@ -1,16 +1,69 @@
-# React + Vite
+Personal Portfolio – Shashank Kumar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website showcasing my projects, technical skills, and experience as a frontend developer. The portfolio focuses on modern UI design, interactive elements, and performance-driven web applications.
 
-Currently, two official plugins are available:
+Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://portfolio-jade-nu-tf0kr42jfy.vercel.app/
 
-## React Compiler
+Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The portfolio highlights my work in frontend development, including interactive applications, real-time projects, and visually engaging user interfaces. It is designed to present my skills and projects in a structured and professional manner.
 
-## Expanding the ESLint configuration
+Features
+Responsive and modern user interface
+Interactive background and animations
+Project showcase with detailed descriptions
+Contact section with form integration
+Smooth navigation and user experience
+Optimized performance and clean design
+Tech Stack
+Frontend: React.js
+Styling: CSS / Bootstrap
+Animation: Three.js / Custom animations
+Programming Language: JavaScript
+Sections Included
+Home
+About
+Projects
+Skills
+Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Project Highlights
+FreqFlow – Audio Visualizer
+
+A real-time audio visualization web application that converts sound into dynamic visuals using frequency analysis and rendering techniques.
+
+
+Installation and Setup
+# Clone the repository
+git clone https://github.com/your-username/portfolio.git
+
+# Navigate into the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm start
+Future Improvements
+Add blog or articles section
+Integrate backend for contact form
+Add dark/light theme toggle
+Improve accessibility and SEO
+Add more advanced animations
+Contributing
+
+Contributions are welcome. You can fork the repository and submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
+
+Author
+
+Shashank Kumar
+GitHub: https://github.com/shashanks226
