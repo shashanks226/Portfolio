@@ -2,6 +2,8 @@ import "./About.css";
 import { motion } from "framer-motion";
 import profile from "../../assets/images/profile.jpeg";
 
+import {downloadcv} from "../../utils/downloadCV";
+
 export default function About() {
   return (
     <section id="about" className="about">
@@ -37,7 +39,7 @@ export default function About() {
             on projects involving AI, IoT, and scalable systems.
           </p>
 
-          <button className="about-btn">Download CV</button>
+          <button className="about-btn" onClick = {downloadcv}>Download CV</button>
         </motion.div>
 
       </div>

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import "./Intro.css";
 import profile from "../../assets/images/profile.jpeg";
 import { useState, useEffect } from "react";
+import {downloadcv} from "../../utils/downloadCV.js";
 
 export default function Intro() {
   const roles = ["Web Developer", "Frontend Developer", "React Developer"];
@@ -48,7 +49,7 @@ export default function Intro() {
             I build scalable web apps and modern UI experiences that solve real-world problems.
           </p>
 
-          <button className="btn">Download CV</button>
+          <button className="btn" onClick={downloadcv}>Download CV</button>
         </div>
 
         {/* RIGHT IMAGE */}

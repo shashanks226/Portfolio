@@ -18,11 +18,11 @@ const projects = [
     demo: "https://aura-morph.vercel.app/"
   },
   {
-    title: "URL Shortener -  IN PROGRESS",
-    desc: "Shorten links with analytics dashboard",
+    title: "FoodPulse -  IN PROGRESS",
+    desc: "Food Expiry Tracker with Smart Alerts, Designing a solution to track food shelf life and improve consumption efficiency using smart reminders through alert-based tracking.",
     image: "https://via.placeholder.com/300",
     tech: ["React", "Express", "MongoDB"],
-    github: "#",
+    github: "https://github.com/shashanks226/FoodPulse",
     demo: "#"
   }
 ];

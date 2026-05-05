@@ -24,15 +24,15 @@ export default function Footer() {
 
         {/* RIGHT */}
         <div className="footer-socials">
-          <a href="https://github.com/yourusername" target="_blank">
+          <a href="https://github.com/shashanks226" target="https://github.com/shashanks226">
             <FaGithub />
           </a>
 
-          <a href="https://linkedin.com/in/yourusername" target="_blank">
+          <a href="https://www.linkedin.com/in/s-k-719b59249" target="https://www.linkedin.com/in/s-k-719b59249">
             <FaLinkedin />
           </a>
 
-          <a href="mailto:youremail@gmail.com">
+          <a href="mailto:shashankkumarrup5@gmail.com" target="shashankkumarrup5@gmail.com">
             <FaEnvelope />
           </a>
         </div>

@@ -25,26 +25,26 @@ export default function Contact() {
 
     // validation
     if (!form.name || !form.email || !form.message) {
-      setSuccess("Please fill all fields ❗");
+      setSuccess("Please fill all fields❗");
       return;
     }
 
     setLoading(true);
 
     emailjs.send(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
+      "22bcs12865",
+      "template_0c15gbm",
       form,
-      "YOUR_PUBLIC_KEY"
+      "EftY2Bc80qpdFOwID"
     )
     .then(() => {
       setLoading(false);
-      setSuccess("Message sent successfully ✅");
+      setSuccess("Message sent Successfully!");
       setForm({ name: "", email: "", message: "" });
     })
     .catch(() => {
       setLoading(false);
-      setSuccess("Something went wrong ❌");
+      setSuccess("Something went WRONG!");
     });
   };
 
@@ -87,15 +87,15 @@ export default function Contact() {
           <h3>Contact Info</h3>
 
           <div className="info-item">
-            <FaEnvelope /> <span>youremail@gmail.com</span>
+            <FaEnvelope /> <span>shashankkumarrup5@gmail.com</span>
           </div>
 
           <div className="info-item">
-            <FaGithub /> <span>github.com/yourusername</span>
+            <FaGithub /> <span>https://github.com/shashanks226</span>
           </div>
 
           <div className="info-item">
-            <FaLinkedin /> <span>linkedin.com/in/yourusername</span>
+            <FaLinkedin /> <span>https://www.linkedin.com/in/s-k-719b59249</span>
           </div>
         </div>
 

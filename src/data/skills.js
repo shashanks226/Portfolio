@@ -1,7 +1,7 @@
 const skills = [
   {
     category: "Programming Languages",
-    items: ["C++", "Java", "Python"]
+    items: ["C++", "Java"]
   },
   {
     category: "Frontend",
@@ -9,15 +9,15 @@ const skills = [
   },
   {
     category: "Backend",
-    items: ["Java", "Spring Boot", "Spring MVC", "REST APIs"]
+    items: ["Java", "REST APIs"]
   },
   {
     category: "Database",
     items: ["MySQL", "MongoDB", "SQL"]
   },
   {
-    category: "Frameworks & Libraries",
-    items: ["Spring Framework", "Hibernate", "RESTful APIs"]
+    category: "Testing",
+    items: ["Selenium using Java"]
   },
   {
     category: "Tools",
