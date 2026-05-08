@@ -39,8 +39,8 @@ export default function About() {
             on projects involving AI, IoT, and scalable systems.
           </p>
 
-          <a href="/cv.pdf" download="Shashank_Kumar_CV.pdf">
-            <button className="btn">Download CV</button>
+          <a href="/cv.pdf" download="Shashank_Kumar_Resume.pdf">
+            <button className="btn">Download Resume</button>
           </a>
         </motion.div>
 
