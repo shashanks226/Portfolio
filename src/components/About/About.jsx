@@ -39,7 +39,9 @@ export default function About() {
             on projects involving AI, IoT, and scalable systems.
           </p>
 
-          <button className="about-btn" onClick = {downloadcv}>Download CV</button>
+          <a href="/cv.pdf" download="Shashank_Kumar_CV.pdf">
+            <button className="btn">Download CV</button>
+          </a>
         </motion.div>
 
       </div>

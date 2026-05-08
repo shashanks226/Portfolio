@@ -49,7 +49,9 @@ export default function Intro() {
             I build scalable web apps and modern UI experiences that solve real-world problems.
           </p>
 
-          <button className="btn" onClick={downloadcv}>Download CV</button>
+          <a href="/cv.pdf" download="Shashank_Kumar_CV.pdf">
+            <button className="btn">Download CV</button>
+          </a>
         </div>
 
         {/* RIGHT IMAGE */}
