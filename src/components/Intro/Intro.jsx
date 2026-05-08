@@ -49,7 +49,7 @@ export default function Intro() {
             I build scalable web apps and modern UI experiences that solve real-world problems.
           </p>
 
-          <a href="/CV.pdf" download="Shashank_Kumar_Resume.pdf">
+          <a href="/Shashank_Kumar_Resume.pdf" download="Shashank_Kumar_Resume.pdf">
             <button className="btn">Download Resume</button>
           </a>
         </div>
